@@ -3,13 +3,24 @@
     color: #475FBF;
     font-size: xx-large;
     text-align: center;
+    background-color: #9FABFF;
 }
 .main1 {
     color: #E59E18;
     text-align: right;
     font-size: large;
+    background-color: #C3D1FF;
 }
 .main2 {
     color: #1CA1C3;
     font-size: large;
+}
+#maincontent img {
+    -webkit-box-shadow: 7px 7px 9px #747474;
+    box-shadow: 7px 7px 9px #747474;
+}
+
+#caption img {
+    -webkit-box-shadow: 7px 7px 18px #484848;
+    box-shadow: 7px 7px 18px #484848;
 }
