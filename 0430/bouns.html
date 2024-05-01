@@ -3,18 +3,23 @@
 <head>
 <meta charset="utf-8">
 <title>bouns</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<form>
-	  <div class="input-group mb-3">
-		<span class="input-group-text" id="addon1">@</span>
-		<input type="text" class="form-control" placeholder="Username">
+	<div class="d-flex justify-content-center">
+	<form class="row row-cols-md-auto g-3 align-items-center">
+	  <div class="col-12">
+		<label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+		<div class="input-group">
+		  <div class="input-group-text">@</div>
+		  <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+		</div>
 	  </div>
-	</form>
+
 	
-	
-	<form class="row row-cols-sm-auto g-2 align-items-center">
+	<form class="row row-cols-md-auto g-3 align-items-center">
 	  <div class="col-12">
 		<select class="form-select" id="userCity-1">
 		  <option selected>選擇借閱書籍...</option>
@@ -33,5 +38,8 @@
 		<button type="submit" class="btn btn-primary">提交</button>
 	  </div>
 	</form>
+	
+		</div>
+		</form>
 </body>
 </html>
